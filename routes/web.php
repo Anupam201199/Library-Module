@@ -24,7 +24,14 @@ Route::get('/laravel/books','booksController@index');
 Route::get('/laravel/entry','booksController@entry')->middleware('auth');
 Route::post('/laravel/books','booksController@store');
 Route::any('/laravel/search','SearchController@search');
-    
+Route::resource('/laravel/books', 'booksController')->middleware('auth');
+Route::get('/laravel/entry', 'booksController@entry')->middleware('auth');
 
+Route::get('/laravel/edit','booksController@edit');
+Route::get('/laravel/destroy','booksController@destroy');
+Route::get('/laravel/borrow',function(){
+	return view('laravel.User.borrowForm');
+});
+    
 
 

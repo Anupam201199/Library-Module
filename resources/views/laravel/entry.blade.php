@@ -13,12 +13,16 @@
         <div class="card">
           <div class="card-body">
             Title<sup><i class="fa fa-asterisk text-danger" aria-hidden="true"></i></sup>
-            <input class="form-control" type="text" name="Title" placeholder="Enter a title for your question" id="Tit">
+            <input class="form-control" type="text" name="Title" placeholder="Enter a title for your book" id="Tit">
             <div class="form-group">
             <label for="exampleFormControlTextarea1" >Author<sup><i class="fa fa-asterisk text-danger" aria-hidden="true"></i></sup></label>
             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter author of the book" rows="5" name="Author"></textarea>
-            </div>
+            <div class="form-group">
+    <label for="tags">Enter tags for this article</label>
+    <input type="text" class="form-control" id="tags" name="tags" placeholder="Tags">
+</div></div>
             <br>
+
             
     
      <label for="author">Cover:</label>
@@ -26,6 +30,7 @@
             </div>
       </div>
       <input type="submit" name="submit" value="Enter the book">
+      
       </form>
       
       

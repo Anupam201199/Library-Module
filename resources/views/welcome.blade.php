@@ -85,7 +85,7 @@
 
                 <div class="container">
                     
-                    <h2 style="font-style:Aria;">Hey there.This section will help you find all the books.It will also help you to issue books.</h2>
+                    <h2 style="font-style:Aria;">Hey there.This section will help you find all the books.It will also help you to borrow books.</h2>
                 </div><br><br>
                 <div class="container">
                     <img src="Images/george.jpg"  height="150px" width="150px" style="margin-left: 10"><br>
